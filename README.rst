@@ -1,5 +1,5 @@
 ==========
-imgflip-py
+imgflip.py
 ==========
 ---------------------------------
 Create memes with imgflip easily!
