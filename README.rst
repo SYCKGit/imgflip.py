@@ -1,9 +1,7 @@
 ==========
 imgflip.py
 ==========
----------------------------------
 Create memes with imgflip easily!
----------------------------------
 
 Installation
 ============
@@ -17,8 +15,28 @@ To install, do
     # Windows
     py -3 -m pip install -U imgflip.py
 
-Example
-=======
+Examples
+========
+
+CLI
+---
+
+.. code-block:: python
+
+    py -3 -m imgflip -u USERNAME -p PASSWORD -tname "drake hotline bling" -top "interacting with raw imgflip api" -bot "using imgflip.py"
+    # use python3 on Linux/macOS
+
+Result:
+
+.. code-block:: text
+
+    meme created!
+    You can find it at: https://imgflip.com/i/5gmxqp
+    Image link: https://i.imgflip.com/5gmxqp.jpg
+
+Code
+----
+
 Sync
 
 .. code-block:: python
@@ -71,4 +89,10 @@ Result:
 .. image:: https://i.imgflip.com/5f7zzm.jpg
     :alt: the meme that was generated
 
-Documentation coming soon. For now you can explore the docstrings and source code.
+For documentation, go `here <https://imgflip.readthedocs.io/>`_
+
+Changes in v1.0
+
+* Fixed docstrings
+* Added documentation
+* Added a command line interface
